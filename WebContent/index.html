@@ -1,0 +1,115 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+
+<head>
+	<title>上海发布-接口测试-Java</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<meta name="page-view-size" content="1280*720"/>
+	<meta name="author" content="scumyang@gmail.com"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<style type="text/css">
+body
+{
+overflow:auto;padding:0px;margin:0px;color:#ccc;font:normal 18px Tahoma;
+background:#000000;
+-background-image:-moz-linear-gradient(top, #57a740, #468733);
+-background-image:-webkit-gradient(linear, right top, left bottom, color-stop(0, #113366), color-stop(1, #000000));
+-background-image:linear-gradient(to bottom, #113366 0%,#000000 100%);
+}
+
+img,button			{border:0px}
+
+a,a:link,a:visited	{text-decoration:none;font:normal 24px Tahoma;color:#fff}
+a:hover				{text-decoration:underline;color:#ff0}
+
+#eSA				{position:absolute;height:648px;left:64px;top:36px}
+
+li
+{
+font:normal 28px Tahoma;
+padding-left:20px;
+margin-bottom:20px;
+}
+
+h2
+{
+color:#f80;
+}
+
+label
+{
+font:normal 24px tahoma;
+}
+
+input
+{
+width:570px;
+height:40px;
+font:bold 22px Tahoma;
+color:#6af;
+background:#333;
+border:1px solid #555;
+border-radius:8px;
+padding:5px;
+}
+
+.inp_s
+{
+width:200px;
+}
+
+</style>
+
+<script type="text/javascript" src=""></script>
+<script type="text/javascript">
+$G =
+{
+	onPageLoad: function()
+	{
+		try
+		{
+			window.$ ? 0 : window.$ = function $( E ){ return document.getElementById( E ); }
+
+			document.onkeydown = function( E )
+			{
+				var E = E || event, K = E.keyCode;
+				switch( K )
+				{
+					//case 48: location.reload(); break;
+				}
+			}
+		}
+		catch( E )
+		{
+			alert( '$G.onPageLoad(): ' + E.message );
+		}
+	}
+
+	,onPageUnload: function()
+	{
+	}
+}
+
+</script>
+
+<body onload="$G.onPageLoad()" onunload="$G.onPageUnload()">
+
+<!--安全区-->
+<div id="eSA" >
+<a href="javascript:open('/QRCode/qrcode/getData?param=' + $('param').value)" target="_blank">生成二维码</a>
+	<label for="tagId">URL：</label><input id="param" value="http://www.baidu.com"/>
+<br/><br/><br/><br/>
+<img alt="" src="http://localhost/media/imgcache/QRCode/QRCode.jpg" height="400px" width="400px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+<img alt="" src="http://localhost/media/imgcache/QRCode/QRCode.jpg" height="400px" width="400px">
+ 
+</div >
+
+</body>
+</html>
